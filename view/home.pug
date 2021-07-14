@@ -1,0 +1,46 @@
+extends base.pug
+block scripts 
+    script(src="../static/script.js")
+block style
+    style
+      include ../static/style.css
+block content 
+    //- nav#nav.navstatus 
+    //-  ul 
+    //-     img(src="../static/Dance/logo.jpg")
+    //-     li  #[a(href='/') Home]
+    //-     li  #[a(href='/') About]                              
+    //-     li  #[a(href='/') Services]                                                           
+    //-     li  #[a(href='/') Class Info]                              
+    //-     li  #[a(href='/') Contact Us]                              
+    
+    section#missionSection
+     h2 Our Mission
+     div.box
+      .card
+        h4  Dance Perfection 
+        div 
+         img(src="../static/Dance/img1.jpg") 
+        .span Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, nemo?
+      .card
+        h4 Dance the way you like
+        img(src="../static/Dance/img2.jpg")
+        .span Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, nemo?
+      .card
+        h4 Expert Teaching
+        img(src="../static/Dance/img3.jpg")
+        .span Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, nemo?
+      .card
+        h4 Super Expert Teaching
+        img(src="../static/Dance/img4.jpg")
+        .span Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, nemo?
+    section#introSection    
+        <p> Welcome to Satya's <span class="highlight">Dance Academy</span></p>
+        div.small Eat Sleep Dance Repeat
+    section#sponsorsSection    
+        h2 Our Sponsors
+        img(src="../static/Dance/logo1.png")
+        img(src="../static/Dance/logo2.png")
+        img(src="../static/Dance/logo3.png")
+        img(src="../static/Dance/logo4.png")
+    

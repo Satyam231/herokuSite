@@ -1,0 +1,40 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    text-align: center;
+    font-size: 1.2rem;
+    background: url('../static/contact.jpg')no-repeat center center;
+}
+#container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#container form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+#container form input{
+    padding: 8px;
+    margin: 8px;
+
+}
+#container form textarea{
+    padding: 8px;
+    margin: 8px;
+}
+button{
+  padding: 8px;
+margin: 8px auto;
+width: 15%;
+font-weight: bold;
+}
+footer{
+    position: absolute;
+    top: 100%;
+    width: 100%;
+}

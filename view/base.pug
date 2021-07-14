@@ -1,0 +1,21 @@
+//- layout.pug
+doctype 
+html
+  head
+    title Satya Dance Academy
+    block scripts
+    block style 
+  body
+    nav#nav.navstatus 
+      ul 
+        img(src="../static/Dance/logo.jpg")
+        li  #[a(href='/') Home]
+        li  #[a(href='/') About]                              
+        li  #[a(href='/') Services]                                                           
+        li  #[a(href='/') Class Info]                              
+        li  #[a(href='/contact') Contact Us]  
+    block content  
+    block footer          
+    footer  
+      p  Copyright &copy; 2021 SatyaDanceAcademy.com|All Rights Reserved 
+
